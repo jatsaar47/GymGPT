@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#080808"/>
+  <!-- Glowing neon lime circle accent -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#E2FF31" stroke-width="20" stroke-linecap="round" stroke-dasharray="800 220" />
+  <!-- Central Dumbbell Bar -->
+  <rect x="180" y="240" width="152" height="32" rx="16" fill="#E2FF31" />
+  <!-- Left Main Plate -->
+  <rect x="156" y="196" width="24" height="120" rx="12" fill="#E2FF31" />
+  <!-- Left Outer Plate -->
+  <rect x="136" y="216" width="16" height="80" rx="8" fill="#E2FF31" />
+  <!-- Right Main Plate -->
+  <rect x="332" y="196" width="24" height="120" rx="12" fill="#E2FF31" />
+  <!-- Right Outer Plate -->
+  <rect x="360" y="216" width="16" height="80" rx="8" fill="#E2FF31" />
+  <!-- Athletic Lightning Bolt Accent -->
+  <path d="M266 140 L242 195 L262 195 L246 230 L276 175 L256 175 Z" fill="#E2FF31" />
+  <text x="256" y="375" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" letter-spacing="4">GYMGPT</text>
+</svg>

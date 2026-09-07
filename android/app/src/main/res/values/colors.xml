@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#080808</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#E2FF31</color>
+    <color name="splashBackground">#080808</color>
+    <color name="windowBackground">#080808</color>
+    <color name="gymGptNeon">#E2FF31</color>
+    <color name="gymGptDark">#080808</color>
+    <color name="gymGptCard">#121212</color>
+</resources>

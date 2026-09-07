@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="18.9"
+        android:translateY="18.9">
+        <!-- GymGPT Neon Bold "G" Emblem -->
+        <path
+            android:fillColor="#E2FF31"
+            android:pathData="M54,16 C33,16 18,31 18,54 C18,77 33,92 54,92 C72,92 84,81 87,65 L54,65 L54,51 L99,51 C100,56 100,61 100,66 C100,85 80,102 54,102 C27,102 8,83 8,54 C8,25 27,6 54,6 C70,6 83,12 92,22 L80,34 C74,25 65,16 54,16 Z" />
+    </group>
+</vector>

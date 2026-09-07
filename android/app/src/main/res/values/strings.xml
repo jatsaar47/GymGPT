@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GymGPT</string>
+    <string name="title_activity_main">GymGPT</string>
+    <string name="package_name">com.gymgpt.app</string>
+    <string name="custom_url_scheme">com.gymgpt.app</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health_connect_rationale">GymGPT requires access to Health Connect to sync your daily steps, active workout calories, distance, and weight to calculate accurate nutritional macros and monitor progressive overload recovery.</string>
+    <string name="health_connect_privacy_policy">GymGPT processes all health and workout metrics on-device with zero third-party tracking or advertising sharing. Your fitness data belongs entirely to you.</string>
+</resources>

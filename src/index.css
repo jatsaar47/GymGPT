@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Default: Dark Neon */
+  :root,
+  [data-theme="dark-neon"],
+  .theme-dark-neon {
+    --bg-main: #080808;
+    --card-surface: #121212;
+    --card-surface-elevated: #181818;
+    --card-border: #1A1A1A;
+    --card-border-subtle: #222222;
+    --accent-primary: #E2FF31;
+    --accent-glow: rgba(226, 255, 49, 0.2);
+    --text-primary: #F5F5F5;
+    --text-muted: #8E8E93;
+    color-scheme: dark;
+  }
+
+  /* Theme: Midnight Blue */
+  [data-theme="midnight-blue"],
+  .theme-midnight-blue {
+    --bg-main: #090D16;
+    --card-surface: #101726;
+    --card-surface-elevated: #182238;
+    --card-border: #1E293B;
+    --card-border-subtle: #26354D;
+    --accent-primary: #38BDF8;
+    --accent-glow: rgba(56, 189, 248, 0.2);
+    --text-primary: #F8FAFC;
+    --text-muted: #94A3B8;
+    color-scheme: dark;
+  }
+
+  /* Theme: Dark Amber */
+  [data-theme="dark-amber"],
+  .theme-dark-amber {
+    --bg-main: #0C0A09;
+    --card-surface: #161412;
+    --card-surface-elevated: #211D1A;
+    --card-border: #292524;
+    --card-border-subtle: #38332E;
+    --accent-primary: #F59E0B;
+    --accent-glow: rgba(245, 158, 11, 0.2);
+    --text-primary: #FAF8F5;
+    --text-muted: #A8A29E;
+    color-scheme: dark;
+  }
+
+  /* Theme: Clean Light */
+  [data-theme="clean-light"],
+  .theme-clean-light {
+    --bg-main: #F4F4F6;
+    --card-surface: #FFFFFF;
+    --card-surface-elevated: #F8FAFC;
+    --card-border: #E2E8F0;
+    --card-border-subtle: #CBD5E1;
+    --accent-primary: #059669;
+    --accent-glow: rgba(5, 150, 105, 0.15);
+    --text-primary: #0F172A;
+    --text-muted: #64748B;
+    color-scheme: light;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .font-serif {
+    font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--card-border-subtle);
+}
+
+/* Smooth transition for theme switching */
+* {
+  box-sizing: border-box;
+}
