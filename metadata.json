@@ -1,0 +1,6 @@
+{
+  "name": "GymGPT",
+  "description": "AI-powered workout tracker, progressive overload planner, Indian vegetarian nutrition coach, and Health Connect dashboard.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
